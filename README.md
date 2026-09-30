@@ -6,8 +6,8 @@
 
 ![DevOps](https://img.shields.io/badge/DevOps-0b2027?style=for-the-badge&logo=azuredevops&logoColor=34d399)
 ![Course](https://img.shields.io/badge/TechWorld%20with%20Nana-1c7d6f?style=for-the-badge)
-![Sections](https://img.shields.io/badge/sections-16-blue?style=for-the-badge)
-![Progress](https://img.shields.io/badge/written-2%20%2F%2016-orange?style=for-the-badge)
+![Sections](https://img.shields.io/badge/sections-17-blue?style=for-the-badge)
+![Progress](https://img.shields.io/badge/written-3%20%2F%2017-orange?style=for-the-badge)
 
 </div>
 
@@ -39,7 +39,7 @@ Tool sections (Docker, Kubernetes, Terraform...) also include **commands** and *
 
 ## 🗺️ What I've covered so far
 
-**Progress:** `██░░░░░░░░░░░░░░` 2 / 16 sections
+**Progress:** `███░░░░░░░░░░░░░░` 3 / 17 sections
 
 **Legend:** ✅ written · 🚧 in progress · ⬜ not yet
 
@@ -58,9 +58,10 @@ The terminal, shell scripting, and how machines talk to each other.
 
 | # | Section | What's inside | Status |
 |:-:|---|---|:-:|
-| 03 | Linux Basics & Shell | Files, permissions, processes, the commands I'll use every day | ⬜ |
-| 04 | Shell Scripting | Writing scripts to automate repetitive tasks | ⬜ |
-| 05 | Networking Fundamentals | IPs, ports, DNS, firewalls, how data moves between machines | ⬜ |
+| 03 | [Linux File System](03-linux-file-system/README.md) | The `/` tree, where everything lives, `/etc` vs `/var/log` | ✅ |
+| 04 | Linux Basics & Shell | Files, permissions, processes, the commands I'll use every day | ⬜ |
+| 05 | Shell Scripting | Writing scripts to automate repetitive tasks | ⬜ |
+| 06 | Networking Fundamentals | IPs, ports, DNS, firewalls, how data moves between machines | ⬜ |
 
 ### Part 3 — Version Control & Build Tools
 
@@ -68,9 +69,9 @@ Tracking changes and turning source code into something deployable.
 
 | # | Section | What's inside | Status |
 |:-:|---|---|:-:|
-| 06 | Version Control with Git | Commits, branches, merges, working with remotes | ⬜ |
-| 07 | Build & Package Manager Tools | Maven, Gradle, npm — turning code into artifacts | ⬜ |
-| 08 | Artifact Repository Manager | Nexus — storing and serving built artifacts | ⬜ |
+| 07 | Version Control with Git | Commits, branches, merges, working with remotes | ⬜ |
+| 08 | Build & Package Manager Tools | Maven, Gradle, npm — turning code into artifacts | ⬜ |
+| 09 | Artifact Repository Manager | Nexus — storing and serving built artifacts | ⬜ |
 
 ### Part 4 — Cloud & Containers
 
@@ -78,8 +79,8 @@ Running apps in the cloud, then packaging them into containers.
 
 | # | Section | What's inside | Status |
 |:-:|---|---|:-:|
-| 09 | Cloud & IaaS Basics | What the cloud actually is, AWS/DigitalOcean, regions, pricing | ⬜ |
-| 10 | Containers with Docker | Images, containers, Dockerfile, volumes, networking | ⬜ |
+| 10 | Cloud & IaaS Basics | What the cloud actually is, AWS/DigitalOcean, regions, pricing | ⬜ |
+| 11 | Containers with Docker | Images, containers, Dockerfile, volumes, networking | ⬜ |
 
 ### Part 5 — Container Orchestration
 
@@ -87,8 +88,8 @@ Managing containers at scale with Kubernetes.
 
 | # | Section | What's inside | Status |
 |:-:|---|---|:-:|
-| 11 | Container Orchestration with Kubernetes | Pods, services, deployments, the cluster architecture | ⬜ |
-| 12 | Managed Kubernetes on AWS | EKS, managed node groups, deploying to a real cluster | ⬜ |
+| 12 | Container Orchestration with Kubernetes | Pods, services, deployments, the cluster architecture | ⬜ |
+| 13 | Managed Kubernetes on AWS | EKS, managed node groups, deploying to a real cluster | ⬜ |
 
 ### Part 6 — CI/CD Pipelines
 
@@ -96,7 +97,7 @@ Automating the build → test → deploy cycle.
 
 | # | Section | What's inside | Status |
 |:-:|---|---|:-:|
-| 13 | CI/CD with Jenkins | Pipelines, Jenkinsfile, integrating with Docker and K8s | ⬜ |
+| 14 | CI/CD with Jenkins | Pipelines, Jenkinsfile, integrating with Docker and K8s | ⬜ |
 
 ### Part 7 — Infrastructure as Code
 
@@ -104,8 +105,8 @@ Defining and managing infrastructure with code instead of clicking.
 
 | # | Section | What's inside | Status |
 |:-:|---|---|:-:|
-| 14 | Infrastructure as Code with Terraform | Providers, resources, state, plan & apply | ⬜ |
-| 15 | Configuration Management with Ansible | Playbooks, inventory, automating server setup | ⬜ |
+| 15 | Infrastructure as Code with Terraform | Providers, resources, state, plan & apply | ⬜ |
+| 16 | Configuration Management with Ansible | Playbooks, inventory, automating server setup | ⬜ |
 
 ### Part 8 — Monitoring
 
@@ -113,7 +114,7 @@ Watching what's running and knowing when something breaks.
 
 | # | Section | What's inside | Status |
 |:-:|---|---|:-:|
-| 16 | Monitoring with Prometheus | Metrics, exporters, Grafana dashboards, alerting | ⬜ |
+| 17 | Monitoring with Prometheus | Metrics, exporters, Grafana dashboards, alerting | ⬜ |
 
 ## 📁 How this repo is organized
 
@@ -128,10 +129,12 @@ devops-notes/
 ├── 02-virtualization-and-virtual-machines/
 │   ├── README.md
 │   └── images/
-├── 03-linux-basics-and-shell/
-├── 04-shell-scripting/
+├── 03-linux-file-system/
+│   ├── README.md
+│   └── images/
+├── 04-linux-basics-and-shell/
 ├── ...                ← one folder per section, as I write them
-└── 16-monitoring-with-prometheus/
+└── 17-monitoring-with-prometheus/
 ```
 
 Each section folder contains:

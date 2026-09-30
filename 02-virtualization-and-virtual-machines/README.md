@@ -105,4 +105,4 @@ But VMs have a cost: each one carries a **full guest OS** — gigabytes in size,
 
 ---
 
-[⬅ 01 · Operating Systems](../01-operating-systems/README.md) · [🏠 Index](../README.md)
+[⬅ 01 · Operating Systems](../01-operating-systems/README.md) · [🏠 Index](../README.md) · [03 · Linux File System ➡](../03-linux-file-system/README.md)

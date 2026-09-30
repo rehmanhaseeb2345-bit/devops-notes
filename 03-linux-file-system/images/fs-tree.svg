@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="500" viewBox="0 0 820 500" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect x="1" y="1" width="818" height="498" rx="16" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="40" y="42" font-size="21" font-weight="700" fill="#1f2328">The Linux file system — one tree from /</text>
+  <text x="40" y="66" font-size="14" fill="#57606a">No C: or D: drives. Everything, even a plugged-in USB, attaches somewhere inside this single tree.</text>
+
+  <!-- root -->
+  <text x="56" y="106" font-size="22" font-weight="700" fill="#1f2328">/</text>
+  <text x="78" y="106" font-size="14" fill="#57606a">(root) — the start of everything</text>
+
+  <!-- tree lines + folders -->
+  <!-- /home -->
+  <line x1="68" y1="118" x2="68" y2="138" stroke="#d0d7de" stroke-width="1.5"/>
+  <line x1="68" y1="138" x2="92" y2="138" stroke="#d0d7de" stroke-width="1.5"/>
+  <text x="100" y="142" font-size="16" font-weight="700" fill="#1971c2">/home</text>
+  <text x="268" y="142" font-size="14" fill="#57606a">your personal files</text>
+
+  <!-- /root -->
+  <line x1="68" y1="138" x2="68" y2="174" stroke="#d0d7de" stroke-width="1.5"/>
+  <line x1="68" y1="174" x2="92" y2="174" stroke="#d0d7de" stroke-width="1.5"/>
+  <text x="100" y="178" font-size="16" font-weight="700" fill="#1971c2">/root</text>
+  <text x="268" y="178" font-size="14" fill="#57606a">the admin (root) user's home folder</text>
+
+  <!-- /bin -->
+  <line x1="68" y1="174" x2="68" y2="210" stroke="#d0d7de" stroke-width="1.5"/>
+  <line x1="68" y1="210" x2="92" y2="210" stroke="#d0d7de" stroke-width="1.5"/>
+  <text x="100" y="214" font-size="16" font-weight="700" fill="#1971c2">/bin</text>
+  <text x="268" y="214" font-size="14" fill="#57606a">built-in commands (ls, cd…)</text>
+
+  <!-- /etc — highlighted -->
+  <rect x="44" y="228" width="740" height="34" rx="6" fill="#fff7ed"/>
+  <line x1="68" y1="210" x2="68" y2="246" stroke="#d0d7de" stroke-width="1.5"/>
+  <line x1="68" y1="246" x2="92" y2="246" stroke="#d0d7de" stroke-width="1.5"/>
+  <text x="100" y="250" font-size="16" font-weight="700" fill="#c2410c">/etc</text>
+  <text x="268" y="250" font-size="14" font-weight="600" fill="#c2410c">settings / config files — how it's configured</text>
+
+  <!-- /var — highlighted -->
+  <rect x="44" y="264" width="740" height="34" rx="6" fill="#fff7ed"/>
+  <line x1="68" y1="246" x2="68" y2="282" stroke="#d0d7de" stroke-width="1.5"/>
+  <line x1="68" y1="282" x2="92" y2="282" stroke="#d0d7de" stroke-width="1.5"/>
+  <text x="100" y="286" font-size="16" font-weight="700" fill="#c2410c">/var</text>
+  <text x="268" y="286" font-size="14" font-weight="600" fill="#c2410c">logs &amp; changing data — /var/log = why it broke</text>
+
+  <!-- /tmp -->
+  <line x1="68" y1="282" x2="68" y2="318" stroke="#d0d7de" stroke-width="1.5"/>
+  <line x1="68" y1="318" x2="92" y2="318" stroke="#d0d7de" stroke-width="1.5"/>
+  <text x="100" y="322" font-size="16" font-weight="700" fill="#1971c2">/tmp</text>
+  <text x="268" y="322" font-size="14" fill="#57606a">temporary scratch files (wiped on reboot)</text>
+
+  <!-- /dev -->
+  <line x1="68" y1="318" x2="68" y2="354" stroke="#d0d7de" stroke-width="1.5"/>
+  <line x1="68" y1="354" x2="92" y2="354" stroke="#d0d7de" stroke-width="1.5"/>
+  <text x="100" y="358" font-size="16" font-weight="700" fill="#1971c2">/dev</text>
+  <text x="268" y="358" font-size="14" fill="#57606a">hardware shown as files</text>
+
+  <!-- /mnt · /media -->
+  <line x1="68" y1="354" x2="68" y2="390" stroke="#d0d7de" stroke-width="1.5"/>
+  <line x1="68" y1="390" x2="92" y2="390" stroke="#d0d7de" stroke-width="1.5"/>
+  <text x="100" y="394" font-size="16" font-weight="700" fill="#1971c2">/mnt · /media</text>
+  <text x="268" y="394" font-size="14" fill="#57606a">mounted / extra drives (your "D:" attaches here)</text>
+
+  <!-- callout box -->
+  <rect x="44" y="424" width="740" height="54" rx="10" fill="#fff7ed" stroke="#f59e0b" stroke-width="1.2"/>
+  <text x="60" y="446" font-size="14" font-weight="700" fill="#92400e">The two folders a DevOps engineer lives in:</text>
+  <text x="60" y="466" font-size="13" fill="#b45309">/etc to change how software is configured · /var/log to find out why something broke</text>
+</svg>
